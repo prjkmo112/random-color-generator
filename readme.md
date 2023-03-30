@@ -1,12 +1,16 @@
 # random-color-generator
 
 
+## NPM
+[npm link (@momo112/random-color-generator)](https://www.npmjs.com/package/@momo112/random-color-generator)
+
 ## functions
 
 1. ```rcg.get(rgbColorOptions:JSON);```<br />
 get random color
 
 ```nodejs
+var rcg = require('@momo112/random-color-generator');
 rcg.get();
 
 {
@@ -25,6 +29,7 @@ rcg.get();
 ```
 
 ```nodejs
+var rcg = require('@momo112/random-color-generator');
 rcg.get({ R: "100", G: "163" });
 
 {
