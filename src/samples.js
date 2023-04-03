@@ -5,4 +5,4 @@ var blue = () => ({ R:"0",G:"0",B:"255",hex:"#0000FF",H:'240',S:'100',L:'50',C:1
 var green = () => ({ R:"0",G:"255",B:"0",hex:"#00FF00",H:'120',S:'100',L:'50',C:100,M:0,Y:100,K:0});
 
 
-module.exports = { black, white, red, blue, green,  };
+module.exports = { black, white, red, blue, green };
